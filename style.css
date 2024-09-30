@@ -56,6 +56,11 @@ nav{
     color: #0074da;
     text-shadow: 0 0 0px #0074da;
 }
+.logo span span{
+    color: #0074da;
+    font-family: 'Vampire Wars', sans-serif;
+    padding: 2%;
+}
 
 .hamburg,
 .cancel{
@@ -208,7 +213,7 @@ section .main-container{
     background-color: black;
     position: absolute;
     width: calc(100% + 8px);
-    height: 80%;
+    height: 100%;
     border-left: 3px solid black;
     right: -8;
     animation: cursor 0.5s infinite;
@@ -253,6 +258,7 @@ section .main-container{
     margin: 5px 15px;
     font-size: 1.5rem;
     transition: 0.2s linear;
+    margin: auto;
 }
 
 .social-links i:hover{
@@ -265,7 +271,7 @@ section .main-container{
 .content button{
     width: 30%;
     height: 6vh;
-    margin: 30px;
+    margin-top: 5%;
     background-color: #0074da;
     color: white;
     border: none;
@@ -328,13 +334,13 @@ section .title span::after{
     transform: translateX(-50%);
 }
 .about .about-details .left{
-    width: 45%;   
+    width: 40%;   
 }
-.about .left img{
-        height: 400px;
-        width: 400px;
-        object-fit: cover;
-        border-radius: 12px;
+.about .left img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .about-details .right{
@@ -355,7 +361,7 @@ section .button{
 }
 section .button button{
     outline: none;
-    padding: 8px 12px;
+    padding: 0px 0px;
     border-radius: 10px;
     font-size: 25px;
     font-weight: 400;
@@ -364,12 +370,15 @@ section .button button{
     border: 2px solid transparent;
     cursor: pointer;
     transition: all 0.4s ease;
+    margin: auto;
 }
 section .button button:hover{
     border-color: #0074da;
     background-color: #fff;
     color: #0074da;
 }
+
+/* Skills Styling */
 
 .skills{
     background: black;
@@ -438,6 +447,7 @@ section .button button:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 10%;
 }
 .skills-details .box{
     width: calc(100% / 2- 20px);
@@ -451,6 +461,8 @@ section .button button:hover{
     font-size: 60px;
     color: #0074da;
 }
+
+/* Services Styling */
 
 .services .boxes{
     display: flex;
@@ -481,7 +493,6 @@ section .button button:hover{
     line-height: 50px;
     font-size: 18px;
     color: #fff;
-    /* margin: 0 auto 10px auto; */
      margin: 0 auto 10px auto; 
     transition: all 0.4s ease;
 }
@@ -498,6 +509,22 @@ section .button button:hover{
 .services .boxes .box:hover p{
     color: #fff;
 }
+
+/* Qr Code Styling */
+
+.qr{
+    background: black;
+}
+.qr img{
+    display: block;
+    margin: 0 auto;
+    max-width: 20%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Contact Styling */
+
 .contact{
     background: black;
 }
@@ -511,12 +538,22 @@ section .button button:hover{
     margin: auto;
 }
 
+.contact .text span{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    color: #0074da;
+    text-shadow: 0 0 10px #0074da;
+}
+
 footer{
     background: #0074da;
     padding: 15px 0;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Footer Styling */
 
 footer .text span{
     font-size: 17px;
@@ -607,6 +644,42 @@ footer .text span a:hover{
         width: 50%;
         height: 60%;
     }
+    section .button button{
+        outline: none;
+        padding: 8px 12px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        background: #0074da;
+        color: #fff;
+        border: 2px solid transparent;
+        cursor: pointer;
+        transition: all 0.4s ease;
+    }
+    .content button{
+        width: 50%;
+        height: 6vh;
+        margin-top: 5%;
+        background-color: #0074da;
+        color: white;
+        border: none;
+        outline: none;
+        font-size: 120%;
+        font-weight: 700;
+        border-radius: 10px;
+        transition: 0.2s linear;
+    }
+
+    .content .typewriter-text::after{
+        content: "";
+        background-color: black;
+        position: absolute;
+        width: calc(100% + 8px);
+        height: 60%;
+        border-left: 3px solid black;
+        right: -8;
+        animation: cursor 0.5s infinite;
+    }
     .skills .skills-details{
         align-items: center;
         justify-content: center;
@@ -624,6 +697,12 @@ footer .text span a:hover{
     .services .boxes .box{
         margin: 20px 0;
         width: 100%;
+    }
+    .qr img{
+        display: block;
+        margin: 0 auto;
+        max-width: 50%;
+        height: auto;
     }
     .contact .text{
         width: 100%;
@@ -644,6 +723,34 @@ footer .text span a:hover{
      .main-container button{
         margin-top: 15px;
      }
+
+     section .button button{
+        outline: none;
+        padding: 8px 12px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        background: #0074da;
+        color: #fff;
+        border: 2px solid transparent;
+        cursor: pointer;
+        transition: all 0.4s ease;
+        margin: auto;
+    }
+
+    .content button{
+        width: 50%;
+        height: 6vh;
+        margin-top: 5%;
+        background-color: #0074da;
+        color: white;
+        border: none;
+        outline: none;
+        font-size: 120%;
+        font-weight: 700;
+        border-radius: 10px;
+        transition: 0.2s linear;
+    }
 
      .skills-details .boxes .per{
         font-size: 50px;
