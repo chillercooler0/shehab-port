@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/Favicon Logo.png">
+    <script src="https://kit.fontawesome.com/8362d0f5a3.js" crossorigin="anonymous"></script>
+    <title>Shehab</title>
+</head>
+<body>
+    <div id="discordMessage" class="discord-message"></div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Desc2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hey, It's <span>Shehab</span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Centered.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur magni eos aliquam odio expedita, saepe soluta! Illo debitis, delectus, voluptates laborum dolorem harum eius blanditiis eum explicabo a tempore nemo!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('prices')">Prices</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Games/Websites interfaces.</li>
+                            <li><span>Portfolio</span><br>Creating impactful, visually engaging portfolios that showcase your best work and skills.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2 Years</span><br>Designing Games/Websites interfaces, Logos, Graphic.</li>  
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="prices">
+                        <ul>
+                            <li><span>500-5K Robux <span>|</span> 10-100<span class="price"> $</span></span><br> <span class="Nor">Normal:</span> UI/UX, Logos, Graphic Designs</li>
+                            <li><span class="tre">1K-10K Robux <span>|</span> 50-250<span class="price"> $</span></span><br> <span class="Pro">Professional: </span> UI/UX, Logos, Graphic Designs</li>
+                            <li><span>5K Robux <span>|</span> 20<span class="price"> $</span></span><br> Portfolio</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------------- Services ------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam magnam dicta labore hic tempore esse accusamus quos fuga dignissimos provident quidem, sed, recusandae temporibus mollitia natus quasi ipsum odio illum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h2>Portfolio</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam magnam dicta labore hic tempore esse accusamus quos fuga dignissimos provident quidem, sed, recusandae temporibus mollitia natus quasi ipsum odio illum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------------- Portfolio ------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/UI 3.png">
+                    <div class="layer">
+                        <h3>HUD Futuristic UI</h3>
+                        <p>Sci-fi modern based type UI.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Weapon Wheel.png">
+                    <div class="layer">
+                        <h3>Weapon Wheel</h3>
+                        <p>Weapon wheel UI as in GTA V.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/UI.png">
+                    <div class="layer">
+                        <h3>Simulator UI</h3>
+                        <p>UI for simulator games.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/UI 2.png">
+                    <div class="layer">
+                        <h3>Glitchy UI</h3>
+                        <p>Glitchy UI.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Cards Design.png">
+                    <div class="layer">
+                        <h3>Reveal Cards UI</h3>
+                        <p>Reveal Cards UI</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Cards UI.png">
+                    <div class="layer">
+                        <h3>Shop Cards UI</h3>
+                        <p>Shop Cards UI.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more...</a>
+        </div>
+        <div class="popup-img">
+            <span>x</span>
+            <img src="Images/Shadowed Background.png" alt="">
+        </div>
+    </div>
+
+<!-- -------------------Contact------------------- -->
+     <div id="contact">
+        <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>sh.king1233@gmail.com</p>
+                        <div class="social-icons">
+                            <a href="https://x.com/Shehab_TheKing"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://discord.gg/48M4FeZF"><i class="fa-brands fa-discord"></i></a>
+                        </div>
+                        <a href="Images/CV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Discord Username" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Send</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 shehab copyright reserved</p>
+        </div>
+     </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    // Handle image click to show popup
+    document.querySelectorAll('.work img').forEach(image => {
+        image.onclick = () => {
+            document.querySelector('.popup-img').style.display = 'block';
+            document.querySelector('.popup-img img').src = image.getAttribute('src');
+        }
+    });
+
+    // Handle span click to close the popup
+    document.querySelector('.popup-img span').onclick = () => {
+        document.querySelector('.popup-img').style.display = 'none';
+    };
+
+    // Handle link icon click to also show the popup
+    document.querySelectorAll('.work .layer a').forEach(link => {
+        link.onclick = (event) => {
+            event.preventDefault(); // Prevent the default link behavior
+
+            // Find the corresponding image in the same `.work` div
+            const workDiv = link.closest('.work'); // Get the parent `.work` div
+            const image = workDiv.querySelector('img'); // Find the image inside the `.work` div
+
+            // Show the popup with the image source
+            document.querySelector('.popup-img').style.display = 'block';
+            document.querySelector('.popup-img img').src = image.getAttribute('src');
+        }
+    });
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx2PPZ9bQLS4Jzqv05qCv8dD2iifuUleE-M--iJdn1Gi6cNckS8hLNLTIZJ4cJGFdzc/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Your message has been successfully sent, Please wait for a response."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script>
+    document.querySelector('.fa-discord').addEventListener('click', function(event) {
+    event.preventDefault();
+
+    const discordMessage = document.getElementById('discordMessage');
+    discordMessage.innerHTML = 'Discord Username: <span>Shehab#6195</span> <i class="fa-solid fa-copy" id="copyIcon"></i>';
+
+    discordMessage.classList.remove('show');
+    void discordMessage.offsetWidth; // Force reflow
+
+    discordMessage.classList.add('show');
+
+    const showDuration = 8000; // Time the message is visible (milliseconds)
+    const transitionDuration = 500; // Duration of the slide-up/down transition (milliseconds)
+
+    setTimeout(function() {
+        discordMessage.classList.remove('show');
+    }, showDuration);
+
+    // Add event listener for the copy icon
+    document.getElementById('copyIcon').addEventListener('click', function() {
+        // Create a temporary input element to copy text
+        const tempInput = document.createElement('input');
+        tempInput.value = 'Shehab#6195';
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand('copy');
+        document.body.removeChild(tempInput);
+
+        // Optionally, you can change the icon's appearance to indicate it was copied
+        const copyIcon = document.getElementById('copyIcon');
+        copyIcon.classList.add('copied'); // Add a class to change icon style
+    });
+
+    // Optional: If you want to do something *after* the slide-out is complete:
+    setTimeout(function() {
+        // Code to execute after the message has completely disappeared
+    }, showDuration + transitionDuration); // Total time before the message is fully gone
+});
+</script>
+
+<div id="discordMessage" class="discord-message">
+    Discord Username: <span>Shehab#6195</span>
+    <i class="fa-solid fa-copy" id="copyIcon"></i> <!-- Copy to clipboard icon -->
+</div>
+
+</body>
+</html>
